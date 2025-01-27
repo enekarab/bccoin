@@ -295,6 +295,59 @@ body {
 
 
 
+
+
+
+
+.section {
+  margin-top: 84px;
+  padding: 40px;
+  background-color: #fff;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.medium-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #222;
+  text-align: center;
+}
+.features-container {
+  display: flex;
+  gap: 20px;
+}
+.left-column, .right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.feature h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.imga{
+  width: 50px;
+}
+.imageee{
+  width: 500px;
+}
+
 thead {
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
@@ -349,18 +402,6 @@ thead {
       padding: 20px 10px
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .feature-wrapper:hover .big-features-card:not(:hover) {
   filter: blur(4px);
